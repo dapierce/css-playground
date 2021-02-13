@@ -1,0 +1,154 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Bitter", serif;
+}
+p {
+  line-height: 2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
+}
+
+h3,
+a {
+  color: #11999e;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+hr {
+  border: none;
+  border-top: 6px dotted #eaf6f6;
+  clear: both;
+  width: 6%;
+  margin: 4rem auto;
+}
+.intro {
+  background-color: #eaf6f6;
+  padding: 20px 20px 0;
+}
+
+.intro h1 {
+  font-family: "Caveat", cursive;
+  font-size: 6rem;
+  margin: 3rem auto 0 auto;
+}
+.intro h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: relative;
+  left: 26%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 26%;
+}
+
+.mountain {
+  margin-bottom: -4px;
+}
+
+.middle-container {
+  margin: 4rem auto;
+}
+
+.profile img,
+.skills img {
+  border-radius: 50%;
+  line-height: 2;
+  width: 25%;
+  max-width: 400px;
+  min-width: 80px;
+}
+.profile p {
+  width: 30%;
+  min-width: 250px;
+  margin: auto;
+}
+.coding-img {
+  float: left;
+  margin-right: 2rem;
+}
+
+.game-img {
+  float: right;
+  margin-left: 2rem;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 5rem auto;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-me h2,
+.contact-me h3,
+.contact-me p {
+  margin: 3rem auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  color: #eaf6f6;
+  font-size: 1.2em;
+  padding: 3rem 0;
+}
+.footer-link {
+  display: inline-block;
+  margin: 1.6rem;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+  text-decoration: underline;
+}
+
+.btn {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -moz-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -ms-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -o-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -webkit-gradient(to bottom, #66bfbf, #11999e);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 1.4rem 2rem;
+  font-size: 1.4rem;
+  height: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #006d71;
+  border: solid #99c624 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
